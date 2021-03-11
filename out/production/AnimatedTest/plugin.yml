@@ -1,0 +1,15 @@
+name: AnimatedTest
+main: org.animatedtest.eu.Main
+version: 1.0
+api-version: 1.16
+commands:
+  summonBlock:
+    description: oWo
+    usage: /<command>
+    permission: <plugin name>.basic
+    permission-message:
+  summonFollowers:
+    description: oWo
+    usage: /<command>
+    permission: <plugin name>.basic
+    permission-message:

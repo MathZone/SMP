@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Plugin">
+    <output-path>$PROJECT_DIR$/../CoderDojo/1.16.5/plugins</output-path>
+    <root id="archive" name="Plugin.jar">
+      <element id="module-output" name="LiviuTest" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../json-simple-1.1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../CoderDojo/1.16.5/spigot-1.16.5.jar" path-in-jar="/" />
+      <element id="directory" name="plugins">
+        <element id="directory" name="SihastruCraft">
+          <element id="file-copy" path="$PROJECT_DIR$/src/config.json" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
